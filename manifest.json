@@ -1,8 +1,8 @@
 {
    "manifest_version": 2,
-  "name": "Search in GUS",
-"description": "Add a right click menu to search selected text on GUS",
-  "version" : "1.0.0.8",
+  "name": "Search in Salesforce GUS",
+"description": "Add a right click menu to search selected text on Salesforce GUS",
+  "version" : "1.1",
   "icons": { "16": "icon.png",
             "48": "icon.png",
              "128": "icon.png" },
