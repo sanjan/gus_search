@@ -1,15 +1,16 @@
 {
    "manifest_version": 2,
   "name": "Search in GUS",
-  "version" : "1.0.0.7",
+"description": "Add a right click menu to search selected text on GUS",
+  "version" : "1.0.0.8",
   "icons": { "16": "icon.png",
             "48": "icon.png",
              "128": "icon.png" },
   "background": {
     "scripts": ["gussearch.js"]
   },
-  "permissions" : [
-    "tabs",
-    "contextMenus"
-    ]
+   "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions" : ["contextMenus"]
 }
